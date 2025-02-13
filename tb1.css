@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    
+
+}
+.box{
+    height: 86%;
+    width: 70%;
+    border: 5px solid black; 
+   display: flex; 
+    margin-left: 15%;
+    margin-top: 4%;
+    background-color: wheat;
+     
+
+}
+
+.box1{
+    height: 100%;
+    width: 35%;
+    /* border: 2px solid red; */
+}
+.box .box1 img{
+    height: 100%;
+    width: 100%;
+}
+.box .details p{
+    font-size: 23px;
+    margin-left: 13%;
+    
+}
+p1{
+    font-size: 35px;
+    
+}
+a{
+    padding: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    
+}
+button{
+    height: 40px;
+    margin-left: 80px;
+    border-radius: 20px;
+    border: transparent;
+
+}
+button:hover{
+    background-color: greenyellow;
+    
+}
+#r{
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    border: transparent;
+}
+#r:hover{
+    background-color: orangered;
+}
+.content .back a{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
